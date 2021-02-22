@@ -1,0 +1,15 @@
+stackbitVersion: "~0.3.0"
+ssgName: "custom"
+buildCommand: "npx @11ty/eleventy"
+publishDir: "public"
+staticDir: "static"
+uploadDir: "images"
+pagesDir: "site"
+metadata:
+  title: "creativebeef co 2"
+  description: "Theme created in Webflow and converted with Udesly"
+models:
+  project:
+    type: "page"
+    label: "Projects"
+    urlPath: "/project/{slug}"
